@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './App.css';
+import Hello from './components/Hello'
 
 import logo from './logo.svg';
 
@@ -14,6 +15,10 @@ class App extends React.Component {
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, aliquam? Explicabo nisi dignissimos at quod non magnam laboriosam corporis, laudantium deleniti ex, molestiae, itaque enim nihil dolor. Similique, praesentium unde!
+        </p>
+        <Hello name="typescript" level={2} />
       </div>
     );
   }
